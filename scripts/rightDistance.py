@@ -10,7 +10,7 @@ from sensor_msgs.msg import Range
 
 # if you are on the robotcar and you have done the whole installation from here:
 # https://github.com/Michdo93/robotcar/
-# you can also import from /home/$USER/robotcar/filter/kalman
+# you can also import from /home/$USER/robotcar/filter/kalman/SimpleKalmanFilter-Python
 
 env=os.path.expanduser(os.path.expandvars('/home/' + getpass.getuser() + '/catkin_ws/src/robotcar_sensorfusion_examples/src'))
 sys.path.insert(0, env)
