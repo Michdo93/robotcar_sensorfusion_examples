@@ -1,6 +1,6 @@
 # robotcar_sensorfusion_examples
 
-Gives an exampe how you can use sensor fusion with the [RobotCar](https://github.com/Michdo93/robotcar). It uses the Kalman-Filter implementation of [SimpleKalmanFilter](https://github.com/Michdo93/SimpleKalmanFilter-Python). At first you have to make sure that the roscore is running and the [robotcar-pkg](https://github.com/Michdo93/robotcar-pkg) is publishing the sensor informations.
+Gives an example how you can use sensor fusion with the [RobotCar](https://github.com/Michdo93/robotcar). It uses the Kalman-Filter implementation of [SimpleKalmanFilter](https://github.com/Michdo93/SimpleKalmanFilter-Python). At first you have to make sure that the roscore is running and the [robotcar-pkg](https://github.com/Michdo93/robotcar-pkg) is publishing the sensor informations.
 
 The String variable `robot_host` uses the hostname of one Robotcar. As example it could be `robotcar`.
 
