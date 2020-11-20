@@ -10,11 +10,11 @@ This package could be used as blue print for some ADAS which uses multiple senso
 
 It subscribes the sensor informations from the front sensors. Following adresses are used:
 
-                  Topic Adress                |      Message Type
---------------------------------------------- | --------------------
-robot_host + /infrared/front/distance         | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)
-robot_host + /time_of_flight/front/distance   | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)
-robot_host + /ultrasonic/front/distance       | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)
+|                  Topic Adress                |      Message Type   |
+|--------------------------------------------- | --------------------|
+|robot_host + /infrared/front/distance         | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)  |
+|robot_host + /time_of_flight/front/distance   | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)  |
+|robot_host + /ultrasonic/front/distance       | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)  |
 
 ## LeftDistanceSubscriber Node
 
