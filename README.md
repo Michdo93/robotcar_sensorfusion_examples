@@ -20,28 +20,28 @@ It subscribes the sensor informations from the front sensors. Following adresses
 
 It subscribes the sensor informations from the left sensors. Following adresses are used:
 
-                  Topic Adress                |      Message Type
---------------------------------------------- | --------------------
-robot_host + /ultrasonic/front/left/distance  | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)
-robot_host + /ultrasonic/rear/left/distance   | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)
+|                  Topic Adress                |      Message Type   |
+|--------------------------------------------- | --------------------|
+|robot_host + /ultrasonic/front/left/distance  | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)  |
+|robot_host + /ultrasonic/rear/left/distance   | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)  |
 
 ## RightDistanceSubscriber Node
 
 It subscribes the sensor informations from the right sensors. Following adresses are used:
 
 
-                  Topic Adress                |      Message Type
---------------------------------------------- | --------------------
-robot_host + /ultrasonic/front/right/distance | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)
-robot_host + /ultrasonic/rear/right/distance  | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)
+|                  Topic Adress                |      Message Type   |
+|--------------------------------------------- | --------------------|
+|robot_host + /ultrasonic/front/right/distance | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)  |
+|robot_host + /ultrasonic/rear/right/distance  | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)  |
 
 ## RearDistanceSubscriber Node
 
 It subscribes the sensor informations from the rear sensors. Following adresses are used:
 
 
-                  Topic Adress                |      Message Type
---------------------------------------------- | --------------------
-robot_host + /infrared/rear/distance          | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)
-robot_host + /time_of_flight/rear/distance    | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)
-robot_host + /ultrasonic/rear/distance        | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)
+|                  Topic Adress                |      Message Type   |
+|--------------------------------------------- | --------------------|
+|robot_host + /infrared/rear/distance          | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)  |
+|robot_host + /time_of_flight/rear/distance    | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)  |
+|robot_host + /ultrasonic/rear/distance        | [sensor_msgs/Range](http://docs.ros.org/en/api/sensor_msgs/html/msg/Range.html)  |
